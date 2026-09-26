@@ -13,4 +13,9 @@
     <Version>0.1.0-alpha</Version>
     <RepositoryUrl>https://github.com/DamilolaAdegunwa/project-hyperion</RepositoryUrl>
   </PropertyGroup>
+
+  <!-- Relax naming and warning rules in unit test and benchmark projects -->
+  <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('Tests')) Or $(MSBuildProjectName.EndsWith('Benchmarks'))">
+    <NoWarn>$(NoWarn);CA1707;CA2007;CA1861;CA1859;CA1515</NoWarn>
+  </PropertyGroup>
 </Project>
