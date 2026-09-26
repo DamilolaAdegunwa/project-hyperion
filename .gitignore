@@ -1,0 +1,46 @@
+## .NET Core / C#
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## Visual Studio & JetBrains & VSCode
+.vs/
+.idea/
+.vscode/
+*.swp
+*.*~
+
+## Test and Coverage Results
+TestResults/
+[Tt]est[Rr]esults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+## BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+## OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+## Hyperion Runtime & Data Dirs
+hyperion-data*/
+data*/
+*.wal
+*.sst
+*.manifest
+tmp/
+scratch/
